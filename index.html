@@ -5,18 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulario de Inicio de Sesión</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Add Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
   <div class="container">
     <h1>Iniciar Sesión</h1>
     <form action="#">
       <label for="usuario">Ingresa tu correo electronico:</label>
-      <input type="text" id="correo" name="corre" placeholder="Correo electronico">
+      <input type="text" id="correo" name="corre" placeholder="Correo electronico" class="form-control">
       <label for="contrasena">Contraseña:</label>
-      <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña">
-      <button type="submit">Ingresar</button>
+      <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña" class="form-control">
+      <button type="submit" class="btn btn-primary">Ingresar</button>
     </form>
     <p><a href="#">¿No tienes una cuenta? Crea una cuenta</a></p>
+    <button type="submit" class="btn btn-secondary">Crear Cuenta</button>
   </div>
+  <!-- Add Bootstrap JS -->
 </body>
 </html>

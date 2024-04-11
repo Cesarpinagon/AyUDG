@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #D3C9FE;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
