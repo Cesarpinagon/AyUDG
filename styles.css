@@ -1,0 +1,132 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D3C9FE;
+
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D3C9FE;
+  
+}
+
+.contMain {
+    font-family: 'Roboto';
+    background-color: white;
+    border-radius: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px !important; 
+    height: 600px !important;
+    max-width: 400px; 
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    position: relative;
+
+}
+
+.labels{
+
+    color: #a0a0a0;
+}
+
+.form-group {
+    width: 100%;
+}
+
+
+
+.btnLogin{
+    
+    background: linear-gradient(to right, #7884f0, #8365c0);
+    font-weight: 700;
+    color: white;
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0 solid;
+    
+}
+
+.btnRegister{
+    background-color: #9f9f9f;
+    font-weight: 700;
+    color: white;
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0 solid;
+}
+
+.title{
+    position: relative;
+    top: -50px;
+    font-weight: 600;
+    color: #2a2a2a;
+
+}
+
+.user_input{
+
+    width: 100%;
+    border-radius: 10px;
+    border: 0.5px solid #cdcdcd;
+    height:45px;
+
+}
+
+
+.user_input:hover {
+    border-color: #2d9c4d; 
+    color: #2d9c4d; 
+}
+
+.user_input:focus{
+
+    background: #f7fffc;
+    border: 0.7px solid #2d9c4d;
+    outline-color:#2d9c4d;
+}
+
+.user_password{
+
+    width: 100%;
+    border-radius: 10px;
+    border: 0.5px solid #cdcdcd;
+    height:45px;
+
+}
+
+.user_password:hover{
+    border-color: #cdcdcd;
+}
+
+.user_password:focus{
+    border-color: #cdcdcd;
+    background:  #f2f6ff;
+    outline-color:#2d959c;
+}
+
+
+.logo{
+display: flex;
+justify-content: center;
+width: 150px;
+height: 42px;
+
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px; /* Adjust margin as needed */
+  }
