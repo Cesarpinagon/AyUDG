@@ -3,23 +3,47 @@
     background-color: rgb(214, 201, 255);
 }
 
-
-.Registro{
+.Registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 201, 255);
+    height: 100vh; /* Hace que el contenedor ocupe toda la altura de la ventana */
+    margin: 0;
+    padding: 0;
+}
+.contSubmain{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 680px;
-    height: 680px;
+    font-family: 'Roboto';
     background-color: white;
-    margin-top: 60px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+    border-radius: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px !important; 
+    height: 600px !important;
+    max-width: 400px; 
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     z-index: 2;
 
 
+}
+
+
+.logo-container {
+    margin-top: 20px; /* Ajusta el margen superior para separar el logotipo del borde superior del contenedor */
+}
+
+
+.logo {
+    position: absolute; /* Permite un posicionamiento absoluto */
+    top: 0; /* Ajusta la posición superior del logotipo al borde superior del contenedor .contSubmain */
+    left: 50%; /* Ajusta la posición horizontal del logotipo */
+    transform: translateX(-50%); /* Centra horizontalmente el logotipo */
+    width: 150px;
+    height: 42px;
 }
 
 .Crearcuentatxt{
@@ -28,20 +52,20 @@
     margin-bottom: 50px;
     margin-top: 20px;
     font-family: 'roboto', sans-serif;
-    font-size: 55px;
+    font-weight: 600;
+    color: #2a2a2a;
+
 
 }
 
 .nombre{
     margin: auto;
-    margin-bottom: 20px;
     display: flex;
     justify-content: center;
+    width: 100%;
     border-radius: 10px;
-    width: 476px;
-    height: 60px;
-    font-size: larger;
-    font-family: 'roboto', sans-serif;
+    border: 0.5px solid #cdcdcd;
+    height:45px;
 
 }
 
@@ -49,56 +73,48 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    width: 100%;
     border-radius: 10px;
-    width: 476px;
-    height: 60px;
-    font-size: larger;
-    font-family: 'roboto', sans-serif;
+    border: 0.5px solid #cdcdcd;
+    height:45px;
 }
 
 .contra1{
-    margin: auto;
-    margin-bottom: 40px;
-    display: flex;
-    justify-content: center;
+   
+    
+    width: 100%;
     border-radius: 10px;
-    width: 476px;
-    height: 60px;
-    font-size: larger;
-    font-family: 'roboto', sans-serif;
+    border: 0.5px solid #cdcdcd;
+    height:45px;
+}
+
+.contra2{
+
+    width: 100%;
+    border-radius: 10px;
+    border: 0.5px solid #cdcdcd;
+    height:45px;
 }
 
 
 .Crear-cuenta{
-    margin: auto;
-    width: 476px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    font-size: 30px;
-    font-family: 'roboto', sans-serif;
+    background: linear-gradient(to right, #7884f0, #8365c0);
+    font-weight: 700;
     color: white;
-    background-image: linear-gradient(to left, rgb(136, 108, 208) 0%, rgb(117, 132, 241) 100%);
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0 solid;
 }
 
 .back{
-    margin: auto;
-    width: 476px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 10px;
-    font-size: 30px;
-    font-family: 'roboto', sans-serif;
+    background-color: #9f9f9f;
+    font-weight: 700;
     color: white;
-    background-color: rgb(160, 160, 160);
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0 solid;
 }
 
 .circulo1{

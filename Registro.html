@@ -7,22 +7,39 @@
 
     <link rel="stylesheet" href="registrostyle.css">
   <!-- Add Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 </head>
 
 <body class="body">
 
 
-    <div class="Registro">
-        <h2 class="Crearcuentatxt"> Crear cuenta </h2>
-        <input type="text" placeholder="Nombre" class="nombre">
-        <input type="email" placeholder="Correo electronico" class="correo">
-        <input type="password" placeholder="Contraseña" class="contra1">
-        
-        <button type="submit" class="Crear-cuenta"> Crear cuenta </button>
-        <button type="submit" class="back"> Regresar </button>
+    <div class="container Registro">
+        <div class="logo-container"> 
+            <img class="logo" src="imgs/ayudgLogo.png">
+          </div>
+        <div class="container contSubmain">
 
+            <h2 class="Crearcuentatxt"> Crear cuenta </h2>
+            <form>
+
+             <div class="form-group mb-3 ">
+                <input type="text" placeholder="Nombre" class="nombre">
+             </div>
+             <div class="form-group mb-3 ">
+                <input type="email" placeholder="Correo electronico" class="correo">
+             </div><div class="form-group mb-3 ">
+                <input type="password" placeholder="Contraseña" class="contra1">
+             </div>
+             <div class="form-group mb-3 ">
+                <input type="password" placeholder="Confirmar Contraseña" class="contra2">
+             </div>
+             <button type="submit" class="Crear-cuenta mb-3"> Crear cuenta </button>
+             <button type="#" class="back"> Regresar </button>
+           
+             </form>
+        </div>
+        
     </div>
 
     <div class="circulo1"> </div>
