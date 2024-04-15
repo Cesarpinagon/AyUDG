@@ -21,15 +21,15 @@
         <div class="container contSubmain">
 
             <h2 class="Crearcuentatxt"> Crear cuenta </h2>
-            <form>
+            <form action="/registro" method="post">
 
              <div class="form-group mb-3 ">
-                <input type="text" placeholder="Nombre" class="nombre">
+                <input type="text" placeholder="Nombre" name="name_input" class="nombre">
              </div>
              <div class="form-group mb-3 ">
-                <input type="email" placeholder="Correo electronico" class="correo">
+                <input type="email" placeholder="Correo electronico" name="email_input" class="correo">
              </div><div class="form-group mb-3 ">
-                <input type="password" placeholder="Contraseña" class="contra1">
+                <input type="password" placeholder="Contraseña" name="password" class="contra1">
              </div>
              <div class="form-group mb-3 ">
                 <input type="password" placeholder="Confirmar Contraseña" class="contra2">
@@ -46,5 +46,6 @@
     <div class="circulo2"> </div>
     <div class="circulo3"> </div>
     
+    <script src="../app.js"></script>
 </body>
 </html>
