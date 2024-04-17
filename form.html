@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Inicio</title>
+
+<link rel="stylesheet" href="formstyle.css">
+<!-- Add Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+</head>
+<body>
+
+  <div class="barra"> 
+
+  <h1 class="ayudg">AYUDG</h1>
+
+  </div>
+
+<button id="boton-publicar">Publica algo</button>
+
+<div id="fondo-oscuro" class="fondo-oscuro"></div>
+
+<div id="ventana-flotante" class="ventana-flotante">
+  <form>
+    <!-- Añade los campos de formulario que necesites -->
+    <button class="cerrar-ventana">X</button>
+
+    <h2 class="titulo1">Propuesta</h2>
+
+    <h3 class="titulo2">Nombre del proyecto</h3>
+    <textarea placeholder="Nombre del proyecto" class="textarea1"></textarea>
+
+    <h3 class="titulo3">Descripcion</h3>
+    <textarea placeholder="El objetivo de mi proyecto es..." class="textarea2"></textarea>
+
+    <h3 for="cantidad" class="Presupuesto">Presupuesto requerido</h3>
+    <input type="number" class="Presupuesto2" placeholder="$250">
+
+    <h2 class="textfoto">Adjunta una foto o video</h2>
+    <input type="file" class="imgselect" accept="image/*">
+
+    <button type="submit" class="publicar">Publicar</button>
+    
+  </form>
+
+
+
+</div>
+
+<script src="FormScript.js"></script>
+
+</body>
+</html>
